@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Kit's VFE Weapons Continued </name>
+	<author>Socprio</author>
+	<supportedVersions><li>1.4</li></supportedVersions>
+	<packageId>KIT.VFEWeapons</packageId>
+	<modDependencies>
+		<li>
+			<packageId>OskarPotocki.VFE.Insectoid</packageId>
+			<displayName>Vanilla Factions Expanded - Insectoids</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2149755445</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VFE.Vikings</packageId>
+			<displayName>Vanilla Factions Expanded - Vikings</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2231295285</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+    <loadAfter>
+		<li>OskarPotocki.VFE.Insectoid</li>
+		<li>OskarPotocki.VFE.Vikings</li>
+	</loadAfter>
+	<description>
+
+The mod aims to add some futuristic weapons :)
+
+	</description>
+</ModMetaData>

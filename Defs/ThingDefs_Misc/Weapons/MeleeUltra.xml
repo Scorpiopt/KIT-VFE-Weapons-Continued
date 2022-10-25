@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="VFEV_BaseMeleeWeapon_Sharp_Quality">
+        <defName>KIT_CryptoHammer</defName>
+        <label>crypto hammer</label>
+        <description>A two-handed, high-tech hammer of unknown origin with an icy cold alloy head. Crypto weapons are laced with what appears to be a cryogenic coating along their head, targets struck by them without proper insulation may feel themselves crippled by hypothermia.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/KIT_CryptoHammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techLevel>Ultra</techLevel>
+        <recipeMaker Inherit="False" />
+        <statBases>
+            <Mass>3.5</Mass>
+            <MarketValue>1450</MarketValue>
+        </statBases>
+        <relicChance>2</relicChance>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>14</power>
+                <cooldownTime>2.8</cooldownTime>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>VFEV_Cut</li>
+                </capacities>
+                <power>40</power>
+                <armorPenetration>0.35</armorPenetration>
+                <cooldownTime>3.4</cooldownTime>
+            </li>
+        </tools>
+        <generateCommonality>0.0</generateCommonality>
+        <tradeability>Buyable</tradeability>
+        <weaponTags>
+            <li>CryptoHeavyMelee</li>
+        </weaponTags>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <ThingDef ParentName="VFEV_BaseMeleeWeapon_Sharp_Quality">
+        <defName>KIT_CryptoKnife</defName>
+        <label>crypto knife</label>
+        <description>An easily swung, high-tech knife of unknown origin with an icy cold alloy blade. Crypto weapons are laced with what appears to be a cryogenic coating along their blade, targets struck by them without proper insulation may feel themselves crippled by hypothermia.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/KIT_CryptoKnife</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techLevel>Ultra</techLevel>
+        <recipeMaker Inherit="False" />
+        <statBases>
+            <Mass>2</Mass>
+            <MarketValue>1120</MarketValue>
+        </statBases>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>1.6</cooldownTime>
+            </li>
+            <li>
+                <label>blade</label>
+                <capacities>
+                    <li>VFEV_Cut</li>
+                </capacities>
+                <power>11</power>
+                <armorPenetration>0.35</armorPenetration>
+                <cooldownTime>1.6</cooldownTime>
+            </li>
+        </tools>
+        <generateCommonality>0.0</generateCommonality>
+        <tradeability>Buyable</tradeability>
+        <weaponTags>
+            <li>CryptoHeavyMelee</li>
+        </weaponTags>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <ThingDef ParentName="VFEV_BaseMeleeWeapon_Sharp_Quality">
+        <defName>KIT_CryptoSpear</defName>
+        <label>crypto spear</label>
+        <description>A two-handed, high-tech spear of unknown origin with an icy cold alloy edge. Crypto weapons are laced with what appears to be a cryogenic coating along their edge, targets struck by them without proper insulation may feel themselves crippled by hypothermia.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/KIT_CryptoSpear</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techLevel>Ultra</techLevel>
+        <recipeMaker Inherit="False" />
+        <statBases>
+            <Mass>3</Mass>
+            <MarketValue>1240</MarketValue>
+        </statBases>
+        <relicChance>2</relicChance>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>14</power>
+                <cooldownTime>3.4</cooldownTime>
+            </li>
+            <li>
+                <label>edge</label>
+                <capacities>
+                    <li>VFEV_Cut</li>
+                </capacities>
+                <power>36</power>
+                <armorPenetration>0.35</armorPenetration>
+                <cooldownTime>3.1</cooldownTime>
+            </li>
+        </tools>
+        <generateCommonality>0.0</generateCommonality>
+        <tradeability>Buyable</tradeability>
+        <weaponTags>
+            <li>CryptoHeavyMelee</li>
+            <li>Spear</li>
+        </weaponTags>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <ThingDef ParentName="VFEV_BaseMeleeWeapon_Sharp_Quality">
+        <defName>KIT_CryptoSword</defName>
+        <label>crypto sword</label>
+        <description>A two-handed, high-tech sword of unknown origin with an icy cold alloy blade. Crypto weapons are laced with what appears to be a cryogenic coating along their blade, targets struck by them without proper insulation may feel themselves crippled by hypothermia.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/KIT_CryptoSword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techLevel>Ultra</techLevel>
+        <recipeMaker Inherit="False" />
+        <statBases>
+            <Mass>3.5</Mass>
+            <MarketValue>1450</MarketValue>
+        </statBases>
+        <relicChance>2</relicChance>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2.8</cooldownTime>
+            </li>
+            <li>
+                <label>edge</label>
+                <capacities>
+                    <li>VFEV_Cut</li>
+                </capacities>
+                <power>28</power>
+                <armorPenetration>0.35</armorPenetration>
+                <cooldownTime>2.4</cooldownTime>
+            </li>
+        </tools>
+        <generateCommonality>0.0</generateCommonality>
+        <tradeability>Buyable</tradeability>
+        <weaponTags>
+            <li>CryptoHeavyMelee</li>
+            <li>LongSword</li>
+        </weaponTags>
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>false</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>
